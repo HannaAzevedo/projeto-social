@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -20,6 +22,15 @@ main {
     position: relative;
     height: 100vh;
 }
+main h1 {
+
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 50px;
+    
+}
 section#telefone {
     position: absolute;
     top: 50%;
@@ -39,7 +50,7 @@ iframe#tela {
 }
 section#redes-sociais { 
     text-align: right;
-    padding-top: 20px;
+    padding-right: 50px;
 }
 
 section#redes-sociais img { 
